@@ -1,0 +1,23 @@
+{
+  "name": "prototype",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "eslint-config-react-app": "^1.0.5",
+    "moment": "^2.18.1",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-hover": "^1.2.0",
+    "react-router-dom": "^4.1.2",
+    "react-skylight": "^0.4.2"
+  },
+  "devDependencies": {
+    "react-scripts": "1.0.10"
+  },
+  "scripts": {
+    "start": "yarn install --only-dev && yarn install && yarn build",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
